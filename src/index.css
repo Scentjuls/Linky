@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.fa-bars {
+    color: black;
+    display: none;
+}
+.nav-contents {
+    font-size: 15px;
+}
+.btn {
+    background: #4bf3b5;
+}
+.nav-contents:hover {
+    color: #757575 !important;
+}
+
+nav li a:hover {
+    background-color: transparent;
+}

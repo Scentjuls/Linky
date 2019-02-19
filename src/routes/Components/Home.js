@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import Nav from '../Partials/Nav';
 
+import Nav from '../Partials/Nav';
+import Landing from './Landing';
 class Home extends Component {
     render () {
         return (
-            <Nav />
+            <div>
+                <Nav />
+                <Landing />
+            </div>
         );
     }
 }

@@ -20,8 +20,11 @@ nav li a:hover {
     background-color: transparent;
 }
 .row {
+    margin-bottom: 0 !important;
+}
+.landing-row {
     background:#FFFFFF;
-    height: 91vh;
+    height: 730px;
 }
 .image {
     width: 100%;
@@ -33,7 +36,7 @@ nav li a:hover {
 }
 .content {
     font-weight: bold;
-    margin-top: 25%;
+    margin-top: 40%;
 }
 .side-content li a {
     list-style-type: none;
@@ -42,62 +45,215 @@ nav li a:hover {
     height: 60px;
     padding-top: 10px;
     font-weight: bold;
+}
+.andriod {
+    width: 160%;
+}
+.how-content {
+    margin-top: 10%;
+    max-width: 500px;
+}
+.how-content p {
+    font-size: 17px;
+}
+.how-btn {
+    margin-top: 50px;
+    height: 60px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.how-row {
+    background: #FFFFFF;
+}
+.section3 {
+    background: #FFFFFF;
+    width: 100%;
+}
+.section_description {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+.section_description p {
+    line-height: 30px;
+}
+.exactly-btns {
+    display: flex;
+    justify-content: center;
+}
+.exatly-btn {
+    margin: 10% 0%;
+    height: 60px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.exact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer {
     
+        height: 55px;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding-top: 15px;
+}
+.footer {
+    color: #e25555;
 }
 @media only screen and (max-device-width: 480px) {
-    .row {
-        height: 103vh;
+    /* all phone screens */
+    .landing-row {
+        height: 515px;
+        background: #FFFFFF;
+    }
+    .how-content {
+        text-align: center;
     }
     .fa-bars {
         display: block;
     }
     .content {
         margin-top: 7%;
+        font-size: 30px;
     }
     .twitter-btn {
-        height: 8vh;
-        padding-top: 10px;
+        height: 45px;
+        padding-top: 4px;
         margin: 0 auto;
+    }
+    .andriod {
+        margin-top: 15%;
+        width: 100%;
+    }
+    .exact {
+        text-align: center;
+        margin-top: 20%;
+    }
+    .section_description p {
+        font-size: 19px;
     }
 }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 600px) {
+    .landing-row {
+        height: 700px;
+        background: #FFFFFF;
+    }
     .fa-bars {
         display: block;
     }
     .content {
         margin-top: 0%;
+        font-size: 40px;
     }
     .twitter-btn {
         margin: 0 25%;
+    }
+    .andriod {
+        margin-top: 5%;
+        width: 100%;
+    }
+    .how-btns {
+        display: flex;
+        justify-content: center;
+    }
+    .how-content{
+        margin: 3% auto;
+        max-width: 100%;
+    }
+    .exact {
+        text-align: center;
+        margin-top: 12%;
     }
 }
 
-@media screen and (min-device-width: 601px) and (max-device-width: 992px) {
-    .row {
-        height: 190vh;
+@media screen and (min-device-width: 601px) and (max-device-width: 1023px) { 
+    /* ipad */
+    .landing-row {
+        height: 400px;
+        background: #FFFFFF;
     }
     .fa-bars {
         display: block;
     }
     .content {
-        margin-top: 0%;
+        margin-top: 20%;
+        font-size: 35px;
     }
     .twitter-btn {
-        margin: 0 25%;
+        margin: 0 3%;
+    }
+    .andriod {
+        margin-top: 20%;
+        width: 100%;
+    }
+    .how-content {
+        margin-top: 0;
+    }
+    .how-content p {
+        font-size: 15px;
+    }
+    .how-works {
+        margin-top:10%;
+        
+    }
+    .how-btn {
+        margin-top: 20px;
+        height: 50px;
+    }
+    .exact h4 {
+        font-size: 20px;
+    }
+    .exatly-btn {
+        margin: 10% 0%;
+    }
+    .section_description {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 10%;
+    }
+    .section_description p {
+        text-align: center;
     }
 }
-@media screen and (min-device-width: 993px) and (max-device-width: 1200) {
-    .row {
-        height: 100vh;
-    }
-    .fa-bars {
-        display: block;
+@media screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
+    .landing-row {
+        height: 650px;
+        background: #FFFFFF;
     }
     .content {
-        margin-top: 0%;
+        font-weight: bold;
+        margin-top: 35%;
     }
     .twitter-btn {
-        margin: 0 30%;
+        height: 60px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    .section_description {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 10%;
+    }
+    .section_description p {
+        text-align: center;
+    }
+}
+@media screen and (min-device-width: 1366px) and (max-device-width: 1439px) {
+    .landing-row {
+        height: 700px;
+        background: #FFFFFF;
+    }
+    .content {
+        font-weight: bold;
+        margin-top: 35%;
+    }
+    .twitter-btn {
+        height: 60px;
+        padding-top: 10px;
+        font-weight: bold;
     }
 }

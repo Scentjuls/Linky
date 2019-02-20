@@ -9,7 +9,7 @@ class Nav extends Component {
                <nav>
                     <div className="nav-wrapper grey lighten-5">
                     <a href="/" className="brand-logo center grey-text text-darken-3">Linky</a>
-                    <a data-activates="main-menu" className="button-collapse show-on-large"><i className="fa fa-bars"></i></a>
+                    <a data-activates="main-menu" className="button-collapse"><i className="fa fa-bars"></i></a>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li><Link to="/pricing"><i className="grey-text text-darken-3 fas fa-money-bill-alt nav-contents">Pricing</i></Link></li>
                         <li><Link to="/help"><i className="grey-text text-darken-3 fas fa-hands-helping nav-contents">Help</i></Link></li>
